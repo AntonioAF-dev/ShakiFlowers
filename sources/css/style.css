@@ -2296,7 +2296,7 @@ button:hover {
     background-color: #6200ea;
     color: white;
     border: none;
-    margin-bottom: 15px;
+    margin-bottom: 95vh;
     padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
@@ -2318,11 +2318,8 @@ button:hover {
 
   .imagen img {
     width: 150px;
-    /* Forzamos el ancho */
     height: auto;
-    /* Ajustamos la altura automáticamente */
     max-width: 100%;
-    /* Asegura que no se desborde del contenedor */
     display: block;
     /* Elimina cualquier espacio en línea alrededor de la imagen */
   }
@@ -2355,7 +2352,7 @@ button:hover {
     background-color: #6200ea;
     color: white;
     border: none;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     padding: 15px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -2414,7 +2411,7 @@ button:hover {
     background-color: #6200ea;
     color: white;
     border: none;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     padding: 15px 25px;
     font-size: 16px;
     cursor: pointer;
@@ -2473,7 +2470,7 @@ button:hover {
     background-color: #6200ea;
     color: white;
     border: none;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     padding: 15px 25px;
     font-size: 16px;
     cursor: pointer;
@@ -2532,7 +2529,7 @@ button:hover {
     background-color: #6200ea;
     color: white;
     border: none;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     padding: 15px 25px;
     font-size: 16px;
     cursor: pointer;
