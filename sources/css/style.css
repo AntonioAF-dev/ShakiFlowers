@@ -2560,3 +2560,59 @@ button:hover {
     /* Elimina cualquier espacio en línea alrededor de la imagen */
   }
 }
+
+@media screen and (max-width: 1080px) {
+  .superpuesto {
+    position: absolute;
+    z-index: 10;
+    color: white;
+  }
+
+  h1.superpuesto {
+    margin-bottom: 85vh;
+    font-size: 3em;
+    text-align: center;
+    max-width: 60%;
+    /* Ajusta el ancho máximo para que pueda tomar más líneas si es necesario */
+    line-height: 1.2;
+    /* Ajusta el espacio entre líneas */
+  }
+
+  .music {
+    z-index: 11;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    margin-bottom: 95vh;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #3700b3;
+  }
+
+
+  .imagen {
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    bottom: 0;
+  }
+
+  .imagen img {
+    width: 450px;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    /* Elimina cualquier espacio en línea alrededor de la imagen */
+  }
+}
